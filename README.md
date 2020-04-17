@@ -12,5 +12,14 @@ This is another tutorial for REST API + React: <https://www.valentinog.com/blog/
 * `coverage html`
 * `coverage report`
 
+Database setup:
+
+* `python manage.py makemigrations quotes` -- create a migration
+* `python manage.py migrate` - run the migration
+* `python manage.py flush` - reset the database
+* Delete the sqlite file and migrations to completely start over
 
 ## TODO
+
+* Create simple frontend react SPA
+* JWT
