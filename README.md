@@ -1,5 +1,7 @@
 # django-template
 
+Simple base project for Django REST backend server.
+
 Working through the tutorial here: <https://docs.djangoproject.com/en/3.0/intro/tutorial01/>
 
 This is another tutorial for REST API + React: <https://www.valentinog.com/blog/drf/>
@@ -9,3 +11,6 @@ This is another tutorial for REST API + React: <https://www.valentinog.com/blog/
 * `coverage run --source='.' manage.py test`
 * coverage html
 * coverage report
+
+
+## TODO
