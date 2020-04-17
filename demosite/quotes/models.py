@@ -1,3 +1,7 @@
 from django.db import models
 
-# Create your models here.
+
+class Quotes(models.Model):
+    id = models.IntegerField
+    text = models.TextField
+    author = models.TextField
