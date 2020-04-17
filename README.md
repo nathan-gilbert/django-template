@@ -9,8 +9,8 @@ This is another tutorial for REST API + React: <https://www.valentinog.com/blog/
 ## Usage
 
 * `coverage run --source='.' manage.py test`
-* coverage html
-* coverage report
+* `coverage html`
+* `coverage report`
 
 
 ## TODO

@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from .models import Quotes
+from .serializers import QuoteSerializer
+from rest_framework import generics
 
-# Create your views here.
+
+class QuoteListCreate(generics.ListCreateAPIView):
+    queryset = Quotes.objects.all()
+    serializer_class = QuoteSerializer
